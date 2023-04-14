@@ -16,7 +16,7 @@ function addImg(inpt){
     const img = document.createElement('img');
     img.src = inpt.value;
     img.classList.add('timeSelec');
-    img.style.width = "10%";
+    img.style.width = "50px";
     inpt.insertAdjacentElement('afterend', img);
     inpt.style.display = "none";
     darkenImg(inpt);

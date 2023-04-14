@@ -11,7 +11,7 @@ body{
     border-style:dotted;
 }
 .times img{
-    width: 22%;
+    width: 60px;
     cursor: grab;
 }
 .time_usado{
