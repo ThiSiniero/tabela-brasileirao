@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+.tabela{
+    margin-top: 1%;
+}
+.tabela input{
+    width: 36px;
+    height: 36px;
+    margin-top: 3%;
+    border-style:dotted;
+}
+.times img{
+    width: 22%;
+    cursor: grab;
+}
+.time_usado{
+    filter: brightness(40%);
+}
+.top_6{
+    background-image: linear-gradient(to bottom, rgba(0, 128, 0, 0.315), white);
+    align-items: center;
+    color: green;
+    border-radius: 50px 50px 0% 0%;
+}
+.last_4{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.329), white);
+    color: red;
+    border-radius: 50px 50px 0% 0%;
+}
+.bReset{
+    font-size: 60%;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    background-color: transparent;
+    color: red;
+    padding: 5px;
+    margin-right: -5%;
+    cursor: pointer;
+}
+.reset_tabela{
+    width: 150px;
+    border-radius: 200px;
+    border-style:dotted;
+}
